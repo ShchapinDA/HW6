@@ -2,7 +2,7 @@ import sqlalchemy as sa
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-DB_PATH = "sqlite:///Модуль B/B6. Обработка исключений. Веб-сервер/Практическое задание/albums.sqlite3"
+DB_PATH = "sqlite:///albums.sqlite3"
 Base = declarative_base()
 
 
